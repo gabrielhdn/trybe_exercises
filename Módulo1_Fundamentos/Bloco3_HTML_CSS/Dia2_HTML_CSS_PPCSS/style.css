@@ -1,0 +1,37 @@
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+}
+
+ul {
+  background-color: darkkhaki;
+  line-height: 20px;
+}
+
+.paragrafoelista {
+  background-color: powderblue;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#red {
+  background-color: red;
+}
+
+#brown {
+  background-color: saddlebrown;
+}
+
+p {
+  font-weight: 600;
+  font-size: 3em;
+}
