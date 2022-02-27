@@ -7,17 +7,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HTML</title>
   <style>
+    body {
+      font-size: 16px;
+    }
+    
     h1 {
       font-size: 65px;
       color: orange;
+      font-family: sans-serif;
     }
 
     ul {
       background-color: darkkhaki;
+      line-height: 20px;
     }
 
     .paragrafoelista {
-      background-color: teal;
+      background-color: powderblue;
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    #yellow {
+      background-color: yellow;
+    }
+
+    #red {
+      background-color: red;
+    }
+
+    #brown {
+      background-color: saddlebrown;
+    }
+
+    p {
+      font-weight: 600;
+      font-size: 3em;
     }
   </style>
 </head>
@@ -26,9 +51,9 @@
   <h1>Exercícios 3.2</h1>
   <p class="paragrafoelista">Qual é a sua cor favorita?</p>
   <ul class="paragrafoelista">
-    <li>Amarelo</li>
-    <li>Vermelho</li>
-    <li>Marrom</li>
+    <li id="yellow">Amarelo</li>
+    <li id="red">Vermelho</li>
+    <li id="brown">Marrom</li>
   </ul>
 </body>
 
