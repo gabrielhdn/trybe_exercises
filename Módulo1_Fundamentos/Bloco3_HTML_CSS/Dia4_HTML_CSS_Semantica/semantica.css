@@ -8,6 +8,7 @@ h3 {
 
 .podio {
   list-style: none;
+  padding-inline-start: 0;
 }
 
 .primeira, .segunda, .terceira {
