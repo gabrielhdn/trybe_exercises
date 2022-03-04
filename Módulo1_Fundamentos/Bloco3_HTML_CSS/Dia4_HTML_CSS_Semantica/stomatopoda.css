@@ -1,0 +1,65 @@
+body {
+  background-color: #008584;
+  font-size: 16px;
+}
+
+.tituloprincipal {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  color: #f5f5f5;
+  text-align: center;
+}
+
+.menu {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f5f5f5;
+  margin-bottom: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-itens {
+  margin-right: 30px;
+}
+
+.conteudo {
+  text-align: center;
+  margin: auto;
+}
+
+.conteudo-artigo {
+  display: inline-block;
+  background-color: #e9e9e9;
+  max-width: 420px;
+  border: 1.5px solid black;
+  padding: 25px;
+  padding-top: 10px;
+  color: #161613;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.referencias-lista {
+  list-style: none;
+  padding-inline-start: 0px;
+}
+
+.conteudo-adjacente {
+  display: inline-block;
+  background-color: #e9e9e9;
+  vertical-align: top;
+  border: 1.5px solid black;
+  margin-top: 550px;
+  margin-left: 30px;
+  padding: 10px;
+  padding-bottom: 6px;
+  max-width: 400px;
+}
+
+footer {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+
