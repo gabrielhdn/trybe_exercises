@@ -12,3 +12,15 @@ console.log(subtracao);
 console.log(divisao);
 console.log(multiplicacao);
 console.log(modulo);
+
+// COM FUNÇÃO:
+
+function contas(n1, n2) {
+  console.log(n1 + n2);
+  console.log(n1 - n2);
+  console.log(n1 / n2);
+  console.log(n1 * n2);
+  console.log(n1 % n2);
+}
+
+contas(10, 5);

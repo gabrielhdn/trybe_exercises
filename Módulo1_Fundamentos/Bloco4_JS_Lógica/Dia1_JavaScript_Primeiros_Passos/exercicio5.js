@@ -9,3 +9,17 @@ if (angulo1 + angulo2 + angulo3 === 180) {
 } else {
   console.log(false);
 }
+
+// COM FUNÇÃO:
+
+function angles(a1, a2, a3) {
+  if (a1 <= 0 || a2 <= 0 || a3 <= 0) {
+    return 'Invalid angle.'
+  } else if (a1 + a2 + a3 === 180) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+console.log(angles(60, 60, 60));

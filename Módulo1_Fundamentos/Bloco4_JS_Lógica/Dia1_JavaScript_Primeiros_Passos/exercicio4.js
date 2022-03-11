@@ -8,3 +8,17 @@ else if (number < 0) {
 } else {
   console.log("Zero");
 }
+
+// COM FUNÇÃO:
+
+function positiveNegative(n1) {
+  if (n1 > 0) {
+    return 'Positive.';
+  } else if (n1 < 0) {
+    return 'Negative.';
+  } else {
+    return 'Zero.';
+  }
+}
+
+console.log(positiveNegative(-5));
