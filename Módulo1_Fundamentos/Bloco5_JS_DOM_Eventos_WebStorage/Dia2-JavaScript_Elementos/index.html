@@ -76,6 +76,7 @@
     let p1 = document.createElement('p');
     p1.innerHTML = 'Primeiro texto!';
     section1.appendChild(p1);
+    p1.style.textAlign = 'center';
     // ex 5
     let sectionLeft = document.createElement('section');
     sectionLeft.classList = 'left-content';
@@ -104,8 +105,28 @@
       let h3 = document.createElement('h3');
       mainContent.appendChild(h3);
     }
-    
-
+    // ex 10
+    tituloPrincipal.classList = 'title';
+    // ex 11
+    let h3 = document.getElementsByTagName('h3');
+    for (let index = 0; index < h3.length; index += 1) {
+      h3[index].classList = 'description';
+    }
+    // ex 12
+    mainContent.removeChild(sectionLeft);
+    // ex 13
+    sectionRight.style.marginRight = 'auto';
+    // ex 14
+    section1.parentElement.style.backgroundColor = 'green';
+    // ex 15
+    let listElements = document.getElementsByTagName('li');
+    for (let index in listElements) {
+      let element = listElements[index];
+      if (element.innerText === 'nove') {
+        list.removeChild(element);
+      }
+    }
+    listElements[listElements.length - 1].remove();
   </script>
 </body>
 
