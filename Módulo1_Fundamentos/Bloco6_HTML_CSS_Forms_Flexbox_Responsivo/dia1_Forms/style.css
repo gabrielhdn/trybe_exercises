@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+button {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#enviar {
+  background-color: rgb(155, 187, 151);
+}
+
+#enviar:hover {
+  background-color: rgb(42, 110, 33);
+}
+
+#apagar {
+  background-color: rgb(221, 155, 155);
+}
+
+#apagar:hover {
+  background-color: rgb(168, 50, 50);
+}
+
+#date {
+  margin-top: 4px;
+}
+
+#header {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#titulo {
+  font-family: 'Ubuntu', sans-serif;
+  margin-bottom: 10px;
+}
+
+#form {
+  width: 50%;
+  margin: auto;
+}
+
+#field {
+  padding: 10px;
+}
+
+.container {
+  margin: 12px 2px;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  padding: 3px 3px;
+}
+
+.radio {
+  margin-right: 5px;
+}
+
+.lastDiv {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 12px;
+}
