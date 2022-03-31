@@ -1,7 +1,95 @@
 html {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+}
+
+footer p {
+  text-align: center;
+}
+
+p {
+  margin: 15px auto;
+  text-align: justify;
+  text-indent: 1.5em;
+}
+
+header p {
+  margin: auto;
+  text-indent: 0;
+}
+
+#chapters {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#information {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+#index {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media screen and (min-width: 667px) and (max-width: 768px) {
+  
+  body {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  body {
+    font-size: 22px;
+  }
+
+  article p {
+    font-size: 25px;
+  }
+
+  #chato {
+    margin-left: 0;
+  }
 }
