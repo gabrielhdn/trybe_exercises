@@ -55,7 +55,7 @@ body {
   align-items: flex-start;
   width: 60%;
   padding: 20px 0;
-  margin: 0 0 0 4%;
+  margin: 0;
 }
 
 #content h2 {
@@ -65,7 +65,7 @@ body {
 #aside {
   width: 33%;
   padding: 20px 0;
-  margin: 0 3% 0 0;
+  margin: 0;
 }
 
 #aside h3 {
@@ -77,4 +77,48 @@ body {
   text-align: right;
   padding: 20px;
   height: 1%;
+}
+
+@media print {
+
+  #header, #navigation, #footer {
+    display: none;
+  }
+
+  #aside {
+    margin-left: 20px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  #index {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #index li a {
+    border-right: none;
+  }
+
+  #content {
+    max-width: 400px;
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  img {
+    width: 420px;
+  }
+
+  article p {
+    width: 420px;
+    text-align: justify;
+  }
+
+  #aside {
+    margin-left: 18px;
+  }
 }
