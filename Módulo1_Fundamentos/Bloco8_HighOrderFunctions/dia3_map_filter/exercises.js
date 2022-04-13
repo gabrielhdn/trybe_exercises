@@ -134,6 +134,6 @@ console.log(oldestBook());
 // 7 - Encontre o nome do livro escrito pela pessoa cujo nome registrado começa com três iniciais.
 // Dica: cada inicial termina com um ponto.
 
-const threeInitials = books.find((book) => book.author.name.split(' ').filter((value) => value.includes('.')).length === 3).name;
+const threeInitials = books.find((book) => book.author.name.split(' ').filter((value) => value.endsWith('.')).length === 3).name;
 
-threeInitials();
+console.log(threeInitials);
