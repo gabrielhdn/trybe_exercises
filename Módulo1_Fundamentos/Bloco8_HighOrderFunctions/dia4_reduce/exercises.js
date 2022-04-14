@@ -6,6 +6,10 @@ const arrays = [
   [4, 5, 6],
 ];
 
+// const [stringNumbers, boolean, numbers] = arrays;
+// const newArray = [...stringNumbers, ...boolean, ...numbers];
+// console.log(newArray);
+
 // function flatten() {
 //   return arrays.reduce((acc, value) => acc.concat(value),[])
 // }
@@ -119,9 +123,11 @@ const biggestName = books.reduce((acc, book) => {
   return acc;
 })
 
+// const biggestName = books.sort((a, b) => b.name.length - a.name.length)[0]; // Jeito fácil de resolver com sort().
+
 console.log(biggestName);
 
-// 5 - Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra a maiúscula ou minúscula.
+// 5 - Dada o array de nomes, retorne a quantidade de vezes em que aparecem a letra "a" maiúscula ou minúscula.
 
 const names = [
   'Aanemarie', 'Adervandes', 'Akifusa',
