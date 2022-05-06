@@ -1,0 +1,10 @@
+.div {
+  background-color: rgb(221, 221, 221);
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
