@@ -7,30 +7,53 @@ import React from 'react';
 
 class AppFixation extends React.Component {
   render() {
-    const headphone = {
-      id: 102,
-      user: 'cena@gmail.com',
-      product: 'Razer Headphone',
-      price: {
-        value: 99.99,
-        currency: 'dollars'
+    // const headphone = {
+    //   id: 102,
+    //   user: 'cena@gmail.com',
+    //   product: 'Razer Headphone',
+    //   price: {
+    //     value: 99.99,
+    //     currency: 'dollars'
+    //   }
+    // }
+    // const energyDrink = {
+    //   id: 77,
+    //   user: 'cena@gmail.com',
+    //   product: 'Monster 500mL',
+    //   price: {
+    //     value: 9.99,
+    //     currency: 'dollars'
+    //   }
+    // }
+    const products = [
+      {
+        id: 102,
+        user: 'cena@gmail.com',
+        product: 'Razer Headphone',
+        price: {
+          value: 99.99,
+          currency: 'dollars'
+        }
+      },
+      {
+        id: 77,
+        user: 'cena@gmail.com',
+        product: 'Monster 500mL',
+        price: {
+          value: 9.99,
+          currency: 'dollars'
+        }
       }
-    }
-    const energyDrink = {
-      id: 77,
-      user: 'cena@gmail.com',
-      product: 'Monster 500mL',
-      price: {
-        value: 9.99,
-        currency: 'dollars'
-      }
-    }
+    ];
     return (
       <div>
         {/* <Image source={imgSource} altText={altText}/> Exercício de fixação */}
         <h1> Orders recenlty created </h1>
-        <Order order={headphone} />
-        <Order order={energyDrink} />
+        {/* <Order order={headphone} />
+        <Order order={energyDrink} /> */}
+        {products.map((item, index) => {
+          return <Order key={item.id + index} order={item}/>
+        })}
       </div>
     );
   }
