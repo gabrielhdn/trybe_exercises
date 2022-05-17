@@ -22,9 +22,11 @@ class App extends React.Component {
 
   render() {
     const { characters } = this.state;
+    const loading = <span>'loading...'</span>;
     return(
       <div className='App'>
         <h1>Rick and Morty Characters</h1>
+        {/* { Boolean(characters.length) ? <h2>{characters[0].name}</h2> : loading } */}
         <div className='body'>
           {characters.map(({ name, image }) => {
             return (
