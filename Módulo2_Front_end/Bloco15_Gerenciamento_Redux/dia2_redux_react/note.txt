@@ -1,0 +1,1 @@
+Exercícios feitos no repositório clonado. Depois de feito, deletado por problemas para adicionar arquivos modificados ao stage.
