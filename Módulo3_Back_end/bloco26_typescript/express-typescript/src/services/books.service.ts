@@ -40,6 +40,13 @@ class BookService {
 
     this.model.remove(id);
   }
+
+  public async partialUpdate(id: number, book: Book): Promise<void> {
+    const bookFound = await this.model.getById(id);
+    if (!bookFound) throw new NotFoundError('NotFoundError');
+
+    this.model.partialUpdate(id, book);
+  }
 }
 
 export default BookService;
